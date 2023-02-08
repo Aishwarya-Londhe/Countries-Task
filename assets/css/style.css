@@ -1,0 +1,48 @@
+body, h1, h2, img, ul, li, figure, figcaption{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blueviolet;
+}
+
+.container-fluid {
+    background-color: #f7f3ee;
+}
+
+.CountryCard{
+    overflow: hidden;
+}
+
+.card {
+    margin: 10px 0;
+}
+
+.CountryCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 150px;
+    width: 220px;
+    display: block;
+    margin: 30px auto;
+}
+
+.CountryCard figcaption {
+    margin-left: 15px;
+}
+
+.CountryCard h2 {
+    font-size: 22px;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li {
+    font-size: 18px;
+}
